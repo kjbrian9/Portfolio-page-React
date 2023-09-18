@@ -1,6 +1,4 @@
-import { ReactNode, useReducer, useState } from "react";
-import Card from "./card";
-import React from "react";
+import { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;

@@ -12,14 +12,12 @@ import "./css/AboutMePage.css";
 
 import GithubLogo from "./assets/github-logo.png";
 import LinkedInLogo from "./assets/linkedin-logo.webp";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import ProjectButton from "./components/ProjectButton";
-import WelcomePage from "./components/WelcomePage";
 
 function WebPage() {
   const [imageIndex, setImageIndex] = useState(0);
   const [isAnimatedVar, setAnimatedVar] = useState(false);
-  const ref = useRef(null);
   const [isButtonActiveArray, setButtonActive] = useState([false, false, false]);
 
   return (
